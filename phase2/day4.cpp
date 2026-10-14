@@ -47,19 +47,19 @@ private:
 
 
 int main(){
-    // Counter v1;
-    // Counter v2(10);
-    // Counter* v3= new Counter(30);
-    // delete v3;
+    Counter v1;
+    Counter v2(10);
+    Counter* v3= new Counter(30);
+    delete v3;
 
 
-    Student s1;
-    Student s2("张三",20,100);
-    Student* s3 = new Student("李四",21,90);
-    s1.stuprintf(s1);
-    s2.stuprintf(s2);
-    s3->stuprintf(*s3);
-    delete s3;
+    // Student s1;
+    // Student s2("张三",20,100);
+    // Student* s3 = new Student("李四",21,90);
+    // s1.stuprintf(s1);
+    // s2.stuprintf(s2);
+    // s3->stuprintf(*s3);
+    // delete s3;
     
     return 0;
 }
